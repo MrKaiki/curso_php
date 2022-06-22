@@ -7,7 +7,7 @@
     $numero = readline();
 
     if($numero > 1 and $numero < 9)
-    echo "O valor esta na faixa permitida";
+        echo "O valor esta na faixa permitida";
     else
-    echo "O valor ultrapassou a faixa";
+        echo "O valor ultrapassou a faixa";
 ?>
