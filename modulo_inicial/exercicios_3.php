@@ -8,10 +8,10 @@
     $nome = readline();
 
 
-    if($sexo = "Masculino"){
+    if($sexo == "Masculino"){
         echo "Ilmo sr.";
-    } elseif($sexo = "Feminino"){
-        echo "Ilma sr.";
+    } elseif($sexo == "Feminino"){
+        echo "Ilma sra.";
     } 
 
     echo "seu nome é $nome";
