@@ -14,7 +14,9 @@
         echo "Ilma sra.";
     } 
 
-    echo "seu nome é $nome";
+
+    echo "seu nome é $nome \n";
+    echo "FIM";
     
 
     
