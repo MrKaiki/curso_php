@@ -2,11 +2,11 @@
 
     echo "Exercicio 2\n";
 
+    echo "Digite seu sexo:> ";
     $sexo = readline();
+    echo "Digite seu nome:> ";
     $nome = readline();
 
-    echo "Digite seu sexo:> ";
-    echo "Digite seu nome:> ";
 
     if($sexo = "Masculino"){
         echo "Ilmo sr.";
@@ -14,7 +14,7 @@
         echo "Ilma sr.";
     } 
 
-    echo "seu nome é @nome";
+    echo "seu nome é $nome";
     
 
     
